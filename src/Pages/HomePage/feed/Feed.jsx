@@ -7,11 +7,9 @@ import {Outlet} from "react-router-dom";
 export default function Feed() {
     return (
         <div className='feed  flex-9 bg-[#F6F8FB]'>
-            <Topbar/>
-            <Departments/>
-            <Patients/>
           <div>
-              <Outlet/>
+
+            <Departments/>
 
           </div>
         </div>
