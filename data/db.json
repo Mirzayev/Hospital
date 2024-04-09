@@ -1,0 +1,130 @@
+{
+  "patient": [
+    {
+      "id": "1",
+      "name": "Jasmina",
+      "image" : "src/icons/jasmin.png",
+      "email": "lesie.alexander@example.com",
+      "dateT": "10/10/2020",
+      "receptionTime": "09:15-09:45am",
+      "doctor": "Dr. Jacob Jones",
+      "reason": "Mumps Stage II"
+    },
+    {
+      "id": "2",
+      "name": "Ronald Richards",
+      "image" : "src/icons/bigAdmin.jpg",
+
+      "email": "ronald.richards@example.com",
+      "dateT": "10/12/2020",
+      "receptionTime": "12:00-12:45pm",
+      "doctor": "Dr. Theresa Webb",
+      "reason": "Depression"
+    },
+    {
+      "id": "3",
+      "image" : "src/icons/jasmin.png",
+
+      "name": "Jane Cooper",
+      "email": "jane.cooper@example.com",
+      "dateT": "10/13/2020",
+      "receptionTime": "01:15-01:45pm",
+      "doctor": "Dr. Jacob Jones",
+      "reason": "Arthritis"
+    },
+    {
+      "id": "4",
+      "name": "Robert Fox",
+      "image" : "src/icons/bigAdmin.jpg",
+
+      "email": "robert.fox@gmail.com",
+      "dateT": "10/14/2020",
+      "receptionTime": "02:00-02:45pm",
+      "doctor": "Dr. Arlene McCoy",
+      "reason": "Fracture"
+    },
+    {
+      "id": "5",
+      "name": "Jenny Wilson",
+      "image" : "src/icons/jane.png",
+
+      "email": "jenny.wilson@example.com",
+      "dateT": "10/15/2020",
+      "receptionTime":"12:00-12:45pm",
+      "doctor": "Dr. Esther Howard",
+      "reason": "Depression"
+    },
+    {
+      "id": "6",
+      "name": "Jasmina",
+      "image" : "src/icons/jasmin.png",
+
+      "email": "lesie.alexander@example.com",
+      "dateT": "10/10/2020",
+      "receptionTime": "09:15-09:45am",
+      "doctor": "Dr. Jacob Jones",
+      "reason": "Mumps Stage II"
+    }
+  ],
+
+
+
+
+
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Leslie Alexander",
+      "image" : "src/icons/jasmin.png",
+      "email": "lesie.alexander@example.com",
+      "specialty": "Nevrolog",
+      "department": "Nevrologiya",
+      "dayAdmission": "Du, Se, Ju"
+    },
+    {
+      "id": "2",
+      "name": "Ronald Richards",
+      "image" : "src/icons/bigAdmin.jpg",
+      "email": "ronald.richards@example.com",
+      "specialty": "Ginekolog",
+      "department": "Ginekolog",
+      "dayAdmission": "Har kuni"
+    },
+    {
+      "id": "3",
+      "name": "Leslie Alexander",
+      "image" : "src/icons/jane.png",
+      "email": "lesie.alexander@example.com",
+      "specialty": "Nevrolog",
+      "department": "Nevrologiya",
+      "dayAdmission": "Juma, Shanba, Yak"
+    },
+    {
+      "id": "4",
+      "name": "Jane Cooper",
+      "image" : "src/icons/jasmin.png",
+      "email": "jane.cooper@example.com",
+      "specialty": "Terapevt",
+      "department": "Terapeya",
+      "dayAdmission": "Dushanba, Juma"
+    },
+    {
+      "id": "5",
+      "name": "Robert Fox",
+      "image" : "src/icons/bigAdmin.jpg",
+      "email": "ronald.richards@example.com",
+      "specialty": "Terapevt",
+      "department": "Terapeya",
+      "dayAdmission": "Du, Se, Ju"
+    },
+    {
+      "id": "6",
+      "name": "Jenny Wilson",
+      "image" : "src/icons/jane.png",
+      "email": "jenny.wilson@example.com",
+      "specialty": "Lor",
+      "department": "Lor",
+      "dayAdmission": "Chor, Pay, Shanba"
+    }
+  ]
+}
