@@ -4,13 +4,13 @@ import Logo from '../../../icons/logotip.png'
 
 export default function Saidbar() {
     return (
-        <div className='saidbar drop-shadow-lg shadow-black min-h-[100vh] '>
-            <div className='p-6'>
+        <div className='saidbar pho:hidden  xl:block  min-h-[100vh] shadow-black drop-shadow-sm'>
+            <div className='p-6 '>
                 <div className='pb-8'>
                     <img className='Logo' src={Logo} alt=""/>
                 </div>
-                <p className=' pt-[14px] text-[#A0A4A8] text-[14px]'>MEDICINE</p>
 
+                <p className=' pt-[14px] text-[#A0A4A8] text-[14px]'>MEDICINE</p>
                 <NavLink to='/'  className='flex items-center gap-[12px] py-[14px] mt-5 cursor-pointer hover:bg-slate-200 px-2 duration-300'>
                     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path

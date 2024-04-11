@@ -1,7 +1,9 @@
+// import
+
 export default function Departments() {
     return (
 
-        <div className='flex px-9 justify-between'>
+        <div className='flex flex-wrap gap-4 px-9 justify-between'>
             <div className='bg-white flex items-center px-6 gap-6 py-3 rounded-md drop-shadow-md hover:cursor-pointer hover:drop-shadow-sm active:bg-[#F6F8FB]  shadow-black'>
                 <svg width="40" height="36" viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path

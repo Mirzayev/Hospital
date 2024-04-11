@@ -2,9 +2,10 @@ import {useState} from 'react'
 import Home from "./Pages/HomePage/Home.jsx";
 import './App.css'
 import Feed from "./Pages/HomePage/feed/Feed.jsx";
-import Doctors from "./Pages/HomePage/components/Doctors.jsx";
-import Patients from "./Pages/HomePage/components/Patients.jsx";
-import Wards from "./Pages/Wards.jsx";
+import DoctorsPage from "./Pages/Doctors/DoctorsPage.jsx";
+import PatientsPage from "./Pages/Patients/PatientsPage.jsx";
+import Wards from "./Pages/Wards/Wards.jsx";
+import Department from "./Pages/Department/Department.jsx";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 
 function App() {
@@ -22,15 +23,19 @@ function App() {
                 },
                 {
                     path: "/doctors",
-                    element: <Doctors/>
+                    element: <DoctorsPage/>
                 },
                 {
                     path: "/patients",
-                    element: <Patients/>
+                    element: <PatientsPage/>
                 },
                 {
                     path: '/wards',
                     element: <Wards/>
+                },
+                {
+                    path: '/department',
+                    element: <Department/>
                 }
 
             ]
