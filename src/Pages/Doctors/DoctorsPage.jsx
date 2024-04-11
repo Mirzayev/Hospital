@@ -17,10 +17,10 @@ import {useEffect, useState} from "react";
 
             return (
             <>
-                <div className='m-9 p-6 bg-white drop-shadow-md shadow-black mb-[55px]'>
+                <div className='max-w-[1440px] m-9 p-6 bg-white drop-shadow-md shadow-black mb-[55px] '>
                     <p className=' text-[20px] leading-[26px] font-bold'> Shifokorlar</p>
 
-                    <div className='grid grid-cols-8 text-[14px] gap-5 font-bold pt-9 w-full'>
+                    <div className='grid grid-cols-8 text-[14px] gap-5 font-bold pt-9 w-full overflow-x-auto  '>
                         <p className='col-span-2'>Ism-sharifi</p>
                         <p className='col-span-2'>Email</p>
                         <p className='col-span-1'>Mutaxassisligi</p>
