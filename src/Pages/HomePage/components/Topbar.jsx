@@ -1,7 +1,7 @@
 import Admin from '../../../icons/bigAdmin.jpg'
 import {useState} from "react";
 import {NavLink} from "react-router-dom";
-
+import './notifacation.css'
 export default function Topbar() {
 
     const [profil, setProfil] = useState(false)
@@ -21,8 +21,10 @@ export default function Topbar() {
     }
 
     return (
-        <div className='relative bg-[#F6F8FB] flex justify-between px-9 py-6 items-center gap-3'>
-            {notifications && <div className='absolute z-10 notifacation   w-full h-screen top-0 left-0'></div>}
+        <div className='relative bg-[#F6F8FB] flex justify-between px-9 py-6 items-center gap-3 '>
+            {notifications && <div className='fixed z-10 notifacation    w-full h-screen top-0 left-0 overflow-hidden'></div>}
+            {profil && <div className='fixed z-10 notifacation    w-full h-screen top-0 left-0 overflow-hidden'></div>}
+            {menu && <div className='fixed z-10 notifacation    w-full h-screen top-0 left-0 overflow-hidden'></div>}
 
             <div>
                 <i onClick={shoMenu} className="fa-solid fa-bars text-xl pho:block xl:hidden"></i>
@@ -111,7 +113,7 @@ export default function Topbar() {
                     </div>
                     {notifications && <div className='absolute z-30 top-10 right-[0px]'>
 
-                        <div className='w-[250px] bg-white px-3 py-3 relative'>
+                        <div className='w-[250px] bg-slate-300 rounded-lg px-5 py-3 relative'>
                             <i onClick={() => setNotifications()}
                                className="fa-solid fa-xmark absolute top-3  right-4"></i>
                             <div className=' py-[5px] mt-4'>
