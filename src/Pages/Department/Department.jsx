@@ -1,6 +1,7 @@
+import CountUp from "react-countup";
 
 
-  export default function Department(){
+export default function Department(){
 
 
     return(
@@ -15,7 +16,11 @@
             </svg>
             <div className='w-[143px] pr-6'>
             <p className='font-bold text-[14px]'>Hodimlar</p>
-            <p className='text-[#336CFB] text-[18px]  '>213</p>
+            <p className='text-[#336CFB] text-[18px]  '>
+                    <CountUp end={213}
+                    duration={5}
+                    />
+                    </p>
             </div>
             </div>
             <div className='bg-white flex items-center px-6 gap-6 py-3 rounded-md drop-shadow-md hover:cursor-pointer hover:drop-shadow-sm active:bg-[#F6F8FB]  shadow-black'>
@@ -27,7 +32,12 @@
 
             <div className='w-[143px] pr-6'>
             <p className='font-bold text-[14px]'>Bemorlar</p>
-            <p className='text-[#336CFB] text-[18px]  '>104</p>
+            <p className='text-[#336CFB] text-[18px]  '>
+
+                    <CountUp end={104}
+                             duration={5}
+                    />
+            </p>
             </div>
             </div>
             <div className='bg-white flex items-center px-6 gap-6 py-3 rounded-md drop-shadow-md hover:cursor-pointer hover:drop-shadow-sm active:bg-[#F6F8FB]  shadow-black'>
@@ -39,7 +49,10 @@
 
             <div className='w-[143px] pr-6'>
             <p className='font-bold text-[14px]'>Xonalar</p>
-            <p className='text-[#336CFB] text-[18px]  '>218</p>
+            <p className='text-[#336CFB] text-[18px]  '>
+                   <CountUp end={218}
+                   duration={5}    />
+                    </p>
             </div>
             </div>
             <div className='bg-white flex items-center px-6 gap-6 py-3 rounded-md drop-shadow-md hover:cursor-pointer hover:drop-shadow-sm active:bg-[#F6F8FB]  shadow-black'>
@@ -51,7 +64,11 @@
 
             <div className='w-[143px] pr-6'>
             <p className='font-bold text-[14px]'>Byudjet</p>
-            <p className='text-[#336CFB] text-[18px]  '>$ 12,174</p>
+            <p className='text-[#336CFB] text-[18px]  '>$
+                    <CountUp end={12174}
+                    duration={5}
+                    ></CountUp>
+                    </p>
             </div>
             </div>
             </div>

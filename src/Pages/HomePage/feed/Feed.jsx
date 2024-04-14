@@ -9,7 +9,7 @@ export default function Feed() {
     return (
         <div className='feed   bg-[#F6F8FB]'>
 
-            <div>
+            <div className='w-[1250px] overflow-x-scroll'>
                 <Departments/>
                 <Patients/>
                 <Doctors/>

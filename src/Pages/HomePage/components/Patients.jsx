@@ -22,7 +22,7 @@ export default function Patients() {
 
 
     return (
-        <div className='m-9 p-6 bg-white drop-shadow-md shadow-black mb-[55px] min-h-screen'>
+        <div className='m-9 p-6 bg-white drop-shadow-md shadow-black mb-[55px] '>
             <p className=' text-[20px] leading-[26px] font-bold'> Bemorlar</p>
 
             <div className='grid grid-cols-9 text-[14px] gap-5 font-bold pt-9 w-full '>

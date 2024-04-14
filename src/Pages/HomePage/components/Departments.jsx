@@ -1,5 +1,8 @@
 // import
 
+import CountUp from "react-countup";
+import {NavLink} from "react-router-dom";
+
 export default function Departments() {
     return (
 
@@ -10,10 +13,14 @@ export default function Departments() {
                         d="M36.492 7.70796H30.524C30.14 7.70796 29.824 7.39596 29.824 7.00796V1.16396C29.824 0.775961 29.508 0.459961 29.12 0.459961H10.876C10.488 0.459961 10.176 0.775961 10.176 1.16396V7.00796C10.176 7.39596 9.86 7.70796 9.472 7.70796H3.508C1.572 7.70796 0 9.28396 0 11.22V31.104C0 33.04 1.568 34.612 3.508 34.612H5.2V34.792C5.2 35.196 5.824 35.528 6.6 35.528H12.272C13.048 35.528 13.672 35.196 13.672 34.792V34.612H26.888V34.792C26.888 35.196 27.52 35.528 28.292 35.528H33.964C34.736 35.528 35.368 35.196 35.368 34.792V34.612H36.492C38.428 34.612 40 33.044 40 31.104V11.216C40 9.28396 38.428 7.70796 36.492 7.70796ZM16.14 4.55596C16.14 4.16796 16.456 3.85196 16.84 3.85196H23.156C23.548 3.85196 23.86 4.16796 23.86 4.55596V7.00796C23.86 7.39596 23.548 7.70796 23.156 7.70796H21.688V7.68796C21.688 7.30396 21.372 6.98796 20.988 6.98796H18.996C18.608 6.98796 18.296 7.30396 18.296 7.68796V7.70796H16.84C16.456 7.70796 16.14 7.39596 16.14 7.00796V4.55596ZM25.348 22.784C25.348 22.972 25.196 23.124 25.004 23.124H22.16C21.968 23.124 21.816 23.276 21.816 23.464V26.316C21.816 26.504 21.664 26.656 21.476 26.656H19.092C18.9 26.656 18.748 26.504 18.748 26.316V23.464C18.748 23.276 18.596 23.124 18.408 23.124H15.556C15.368 23.124 15.22 22.972 15.22 22.784V20.396C15.22 20.212 15.372 20.056 15.556 20.056H18.408C18.596 20.056 18.748 19.908 18.748 19.716V16.868C18.748 16.68 18.9 16.528 19.092 16.528H21.476C21.664 16.528 21.816 16.68 21.816 16.868V19.716C21.816 19.908 21.968 20.056 22.16 20.056H25.004C25.196 20.056 25.348 20.212 25.348 20.396V22.784Z"
                         fill="#558EFF"/>
                 </svg>
-                <div className='w-[143px] pr-6'>
+                <NavLink to='/doctors' className='w-[143px] pr-6'>
                     <p className='font-bold text-[14px]'>Hodimlar</p>
-                    <p className='text-[#336CFB] text-[18px]  '>213</p>
-                </div>
+                    <p className='text-[#336CFB] text-[18px]  '>
+                        <CountUp end={213}
+                        duration={5}
+                        />
+                    </p>
+                </NavLink>
             </div>
             <div className='bg-white flex items-center px-6 gap-6 py-3 rounded-md drop-shadow-md hover:cursor-pointer hover:drop-shadow-sm active:bg-[#F6F8FB]  shadow-black'>
                 <svg width="21" height="40" viewBox="0 0 21 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,10 +29,12 @@ export default function Departments() {
                         fill="#558EFF"/>
                 </svg>
 
-                <div className='w-[143px] pr-6'>
+                <NavLink to='/patients' className='w-[143px] pr-6'>
                     <p className='font-bold text-[14px]'>Bemorlar</p>
-                    <p className='text-[#336CFB] text-[18px]  '>104</p>
-                </div>
+                    <p className='text-[#336CFB] text-[18px]  '>
+                        <CountUp end={104} duration={5}/>
+                    </p>
+                </NavLink>
             </div>
             <div className='bg-white flex items-center px-6 gap-6 py-3 rounded-md drop-shadow-md hover:cursor-pointer hover:drop-shadow-sm active:bg-[#F6F8FB]  shadow-black'>
                 <svg width="30" height="40" viewBox="0 0 30 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,10 +43,13 @@ export default function Departments() {
                         fill="#558EFF"/>
                 </svg>
 
-                <div className='w-[143px] pr-6'>
+                <NavLink to='/wards' className='w-[143px] pr-6'>
                     <p className='font-bold text-[14px]'>Xonalar</p>
-                    <p className='text-[#336CFB] text-[18px]  '>218</p>
-                </div>
+                    <p className='text-[#336CFB] text-[18px]  '>
+                        <CountUp end={218} duration={5}/>
+
+                    </p>
+                </NavLink>
             </div>
             <div className='bg-white flex items-center px-6 gap-6 py-3 rounded-md drop-shadow-md hover:cursor-pointer hover:drop-shadow-sm active:bg-[#F6F8FB]  shadow-black'>
                 <svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,7 +60,9 @@ export default function Departments() {
 
                 <div className='w-[143px] pr-6'>
                     <p className='font-bold text-[14px]'>Byudjet</p>
-                    <p className='text-[#336CFB] text-[18px]  '>$ 12,174</p>
+                    <p className='text-[#336CFB] text-[18px]  '>$
+                        <CountUp end={12174} duration={5}/>
+                        </p>
                 </div>
             </div>
         </div>
