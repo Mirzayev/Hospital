@@ -129,39 +129,39 @@ export default function Topbar() {
                             <i onClick={() => setNotifications()}
                                className="fa-solid fa-xmark absolute top-3  right-4"></i>
                             <div className=' py-[5px] mt-4'>
-                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell "></i> <span>Aka pulingiz tugayapti</span>
+                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell  text-gray-500"></i> <span>Dori-darmonlar kam qoldi</span>
                                 </p>
                             </div>
                             <div className='py-[5px]  '>
-                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell"></i> <span>Aka pulingiz tugayapti</span>
+                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell text-gray-500"></i> <span>Dori-darmonlar kam qoldi</span>
                                 </p>
                             </div>
                             <div className=' py-[5px] '>
-                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell"></i> <span>Aka pulingiz tugayapti</span>
+                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell text-gray-500"></i> <span>Dori-darmonlar kam qoldi</span>
                                 </p>
                             </div>
                             <div className=' py-[5px] '>
-                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell"></i> <span>Aka pulingiz tugayapti</span>
+                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell text-gray-500"></i> <span>Dori-darmonlar kam qoldi</span>
                                 </p>
                             </div>
                             <div className=' py-[5px] '>
-                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell"></i> <span>Aka pulingiz tugayapti</span>
+                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell text-gray-500"></i> <span>Dori-darmonlar kam qoldi</span>
                                 </p>
                             </div>
                             <div className='py-[5px]  '>
-                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell"></i> <span>Aka pulingiz tugayapti</span>
+                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell text-gray-500"></i> <span>Dori-darmonlar kam qoldi</span>
                                 </p>
                             </div>
                             <div className='py-[5px]  '>
-                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell"></i> <span>Aka pulingiz tugayapti</span>
+                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell text-gray-500"></i> <span>Dori-darmonlar kam qoldi</span>
                                 </p>
                             </div>
                             <div className='py-[5px]  '>
-                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell"></i> <span>Aka pulingiz tugayapti</span>
+                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell text-gray-500"></i> <span>Dori-darmonlar kam qoldi</span>
                                 </p>
                             </div>
                             <div className='py-[5px]  '>
-                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell"></i> <span>Aka pulingiz tugayapti</span>
+                                <p className='flex items-center gap-3'><i className="fa-solid fa-bell text-gray-500"></i> <span>Dori-darmonlar kam qoldi</span>
                                 </p>
                             </div>
 
